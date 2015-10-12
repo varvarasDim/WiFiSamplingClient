@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+    
+    <TextView android:text="Recording and sending..." android:id="@+id/textviewau1" 
+    android:layout_height="wrap_content" android:layout_width="fill_parent"></TextView>
+    <Button android:layout_height="wrap_content" android:layout_width="fill_parent"
+    android:text="Begin Transmiting" android:id="@+id/recordT_start"></Button>
+    <Button android:text="End Transmiting" android:layout_height="wrap_content" 
+        android:id="@+id/recordT_end" android:layout_width="fill_parent"></Button>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/addT" android:text=""></TextView>
+
+ </LinearLayout>
+<!-- From: file:/C:/Users/Dimitris_Varvaras/Dropbox/applications/OnGithub/WiFiSamplingServerAndClient/WiFiSampling/app/src/main/res/layout/sendsamples.xml -->

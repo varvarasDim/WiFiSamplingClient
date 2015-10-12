@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:src="@drawable/wifi"></ImageView>
+    <TextView android:id="@+id/textView1" android:text="Input server ip:" android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="fill_parent"></TextView>
+    <EditText android:id="@+id/serverip" android:layout_gravity="clip_horizontal" android:text="192.168.1.15" android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:focusableInTouchMode="true"></EditText>
+    <Button android:text="Connect" android:layout_gravity="center_horizontal" android:layout_weight="1" android:id="@+id/connect" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+
+	<ListView android:id="@+id/android:list"
+	 android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_weight="1"/>
+	
+</LinearLayout>
+<!-- From: file:/C:/Users/Dimitris_Varvaras/Dropbox/applications/OnGithub/WiFiSamplingServerAndClient/WiFiSampling/app/src/main/res/layout/splash.xml -->

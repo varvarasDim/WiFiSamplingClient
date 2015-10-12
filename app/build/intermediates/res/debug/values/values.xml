@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Dimitris_Varvaras/Dropbox/applications/OnGithub/WiFiSamplingServerAndClient/WiFiSampling/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">WiFi Samples</string>
+    <string name="body">body</string>
+    <string name="confirm">Confirm</string>
+    <string name="menu_delete">Delete Note</string>
+    <string name="menu_insert">Add Note</string>
+    <string name="no_notes">No Notes Yet</string>
+    <string name="posnav">WiFi Samples</string>
+    <string name="title">WiFi Samples</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="fill_parent">
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+		<TextView android:layout_height="wrap_content" android:text="Make your choice" android:layout_width="fill_parent"/>
+	</LinearLayout>
+
+	<Button
+	    android:id="@+id/recorddata"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Record Data" />
+	
+		<Button
+	    android:id="@+id/recntran"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Rec N Transmit" />
+
+</LinearLayout>
